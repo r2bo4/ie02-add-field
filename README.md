@@ -1,2 +1,9 @@
 # ie02-add-field
 ie02 add field
+
+smod ITOB0001
+add field append CI_EQUI_U and CI_EQUI
+EXIT_SAPLITO0_001
+smod IWOC0004
+EXIT_SAPLITO0_002
+EXIT_SAPLIREP1_001
